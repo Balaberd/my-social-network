@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.autorAvatar {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.postInfo {
+    margin-left: 30px;
+}
+
+.authorName a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black    ;
+}
+
+.postDate {
+    margin-top: 5px;
+    font-size: 23px;
+    color: rgb(63, 63, 67);
+}

@@ -1,0 +1,29 @@
+.nav {
+    font-size: 24px;
+    font-weight: 800;
+    width: 15%;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    color: rgb(29, 23, 23);
+}
+
+.nav a {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.active {
+    color: rgb(29, 23, 23);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+.loginMenu {
+    margin: 0 auto;
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 0 20px 0 20px;
+}
+
+/* div {
+    border: 1px solid red;
+} */

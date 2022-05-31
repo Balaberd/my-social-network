@@ -1,0 +1,17 @@
+.header {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 5px 30px 5px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    max-width: 80px;
+    border-radius: 50px;
+    max-height: 100%;
+}

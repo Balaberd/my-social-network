@@ -1,0 +1,14 @@
+.content {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.appWrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.navAndContent {
+    display: flex;
+}
