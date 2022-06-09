@@ -6,18 +6,12 @@ import Page from './components/Page';
 function App() {
 
   const [activUser, setActivUser] = useState('');
+  const element = activUser ?
+    <Page activUser={activUser} setActivUser={setActivUser} />
+    :
+    <LoginMenu setActivUser={setActivUser} />
 
-  if (!activUser) {
-    return (
-      <LoginMenu setActivUser={setActivUser} />
-    );
-  }
-
-  if (activUser) {
-    return (
-      <Page activUser={activUser} setActivUser={setActivUser}/>
-    );
-  }
+  return ( element );
 
 }
 

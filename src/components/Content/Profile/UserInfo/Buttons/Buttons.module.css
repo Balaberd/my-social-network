@@ -1,0 +1,15 @@
+
+.friendButtons {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+.removeButton{
+    width: 100%;
+    margin: 5px 0 5px 0;
+    color: rgb(129, 35, 35);
+}

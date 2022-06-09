@@ -1,7 +1,6 @@
 .wrapper {
     display: flex;
-    margin-bottom: 10px;
-    padding: 5px;
+    justify-content: space-between;
 }
 
 .autorAvatar {
@@ -9,8 +8,13 @@
     border-radius: 50%;
 }
 
+.nameAndDate {
+    margin-left: 30px;
+}
+
 .postInfo {
     margin-left: 30px;
+    display: flex;
 }
 
 .authorName a {
@@ -23,4 +27,12 @@
     margin-top: 5px;
     font-size: 23px;
     color: rgb(63, 63, 67);
+}
+
+.removePost {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(97, 97, 104);
 }

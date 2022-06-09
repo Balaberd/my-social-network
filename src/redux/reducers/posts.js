@@ -22,10 +22,23 @@ const data = {
         author: 'userId1',
         date: '22.04.2022 18:15:06',
         text: 'Ух я тебе, Палкан!!! >_<'
-    }
+    },
+
+    postId5: {
+        author: 'userId3',
+        date: '15.05.2022 11:11:06',
+        text: 'Хеллллоооу-у-у'
+    },
+
+    postId6: {
+        author: 'userId1',
+        date: '15.05.2022 11:12:16',
+        text: 'Мррр'
+    },
+
 };
 
-let postsCounter = 4;
+let postsCounter = 6;
 
 export const posts = function (state = data, action) {
 

@@ -1,0 +1,15 @@
+.wrapper {
+
+}
+
+.blocks {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+}

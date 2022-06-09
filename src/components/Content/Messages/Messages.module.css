@@ -1,0 +1,35 @@
+.wrapper{
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.messages {
+    overflow: auto;
+    height: 76vh;
+}
+
+.form{
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    margin: 10px 0 15px 0;
+}
+
+.textarea {
+    border-radius: 20px;
+    width: 85%;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button{ 
+    border-radius: 15px;
+    width: 10%;
+    height: 40px;
+    margin: 0 0 0 10px;
+}

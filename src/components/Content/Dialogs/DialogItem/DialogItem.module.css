@@ -1,0 +1,95 @@
+.wrapper{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.companionAvatar{
+    width: 100px;
+}
+.companionAvatarImg{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.content{
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.companionName{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.lastMessageInfo{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorAvatar{
+    width: 60px;
+}
+
+.authorAvatarImg{
+    width: 60px;
+    border-radius: 50px;
+}
+.text{
+    font-size: 25px;
+    font-weight: 600;
+}
+.date{}
+
+
+
+/* .wrapper {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.dialogAvatar {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nameAndDate {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.date {
+    font-size: 23px;
+    color: rgb(63, 63, 67);
+    padding-right: 80px;
+}
+
+.infoAndText {
+    width: 100%;
+} */

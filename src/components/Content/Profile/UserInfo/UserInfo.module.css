@@ -6,10 +6,13 @@
     padding: 15px;
 }
 
-.userAvatarWrapper {}
+.userAvatarWrapper {
+    width: 250px;
+
+}
 
 .imgUserAvatar {
-    width: 250px;
+    width: 100%;
 }
 
 .userAbout {

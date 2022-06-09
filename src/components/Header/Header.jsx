@@ -1,12 +1,13 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import LoginMenu from "../LoginMenu/LoginMenu";
 import styles from "./Header.module.css";
 
 const Header = ({ setActivUser, activUser }) => {
     const avatar = useSelector(state => state.users[activUser].userInfo.avatar)
 
     function removeActivUser() {
-        setActivUser('')
+        setActivUser('');
     }
 
     return (

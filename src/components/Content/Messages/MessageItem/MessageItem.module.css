@@ -1,0 +1,56 @@
+.wrapper {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 95%;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper.wrapperForActivUser {
+    float: right;
+    background-color: rgb(181, 210, 229);
+
+}
+
+.titleAndContent {
+    padding: 5px 30px 5px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 100px;
+    padding: 5px;
+}
+
+.avatarImg {
+    width: 80px;
+    border-radius: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.date {}
+
+.text {
+    word-break: break-all;
+}
