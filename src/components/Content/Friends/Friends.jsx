@@ -13,7 +13,7 @@ const Friends = ({ activUser }) => {
         <section className={styles.wrapper}>
 
             <div className={styles.blocks} >
-                <input placeholder="найти друзей(пока не работает) "></input>
+                <input placeholder="найти друзей (пока не работает)"></input>
                 <button>поиск </button>
             </div>
 
